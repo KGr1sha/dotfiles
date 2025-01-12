@@ -1,0 +1,14 @@
+[window]
+decorations = "Transparent"
+
+
+[font]
+size = 22
+normal = { family = "FiraCode", style = "Regular" }
+bold = { family = "FiraCode", style = "Bold" }
+italic = { family = "FiraCode", style = "Italic" }
+
+
+[keyboard]
+#TODO: change so this does not trigger in nvim
+bindings = [{ key = "Escape", mode = "Vi", action = "ToggleViMode" },]
